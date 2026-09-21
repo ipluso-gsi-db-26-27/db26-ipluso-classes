@@ -8,7 +8,7 @@ Two databases are created for you automatically:
 
 | Database | Schemas | Content |
 |---|---|---|
-| `ULHT_DB26` | `HR`, `Scott` | Classic HR / Scott teaching schemas — 11 tables, 10 foreign keys |
+| `IPL_GIS_DB26` | `HR`, `Scott` | Classic HR / Scott teaching schemas — 11 tables, 10 foreign keys |
 
 ---
 
@@ -62,7 +62,7 @@ When using GitHub Classroom, you can also use the **Submit** button to push your
 | Field | Value |
 |---|---|
 | Login | `sa` |
-| Default Password | Ulht#db26!Class |
+| Default Password | IPl#db26!Class |
 
 > **Note:** The default password can be changed after the initial setup, from within the SQL Server management tools.
 
@@ -71,7 +71,7 @@ when prompted, and you get a query editor with IntelliSense.
 
 code examples:
 ```sql
-USE ULHT_DB26;
+USE IPL_GIS_DB26;
 SELECT TOP 5 * FROM HR.EMPLOYEES;
 ```
 
@@ -79,7 +79,6 @@ SELECT TOP 5 * FROM HR.EMPLOYEES;
 If you don't have the Terminal open, open it with **Terminal → New Terminal**. Then run:
 ```bash
 sql                       # interactive session
-sql -d BikeStores         # against a specific database
 sql -Q "SELECT TOP 5 * FROM HR.EMPLOYEES"
 sql -i exercises/aula03.sql
 ```
@@ -154,7 +153,7 @@ You might want to wait for the class when each script is explained to better und
 
 **The SQL panel says "login failed for user sa"** — first check whether the
 databases actually exist. The full message is often *"Cannot open database
-ULHT_DB26 requested by the login. The login failed."*, which looks like a
+IPL_GIS_DB26 requested by the login. The login failed."*, which looks like a
 password problem but means the database is missing, i.e. setup did not finish.
 
 Open the Command Palette (`F1`) → **Codespaces: View Creation Log** and look

@@ -34,7 +34,7 @@
         "mssql.connections": [
           {
             "server": "db,1433",
-            "database": "ULHT_DB26",
+            "database": "IPL_GIS_DB26",
             "authenticationType": "SqlLogin",
             "user": "sa",
             "password": "",
@@ -42,19 +42,7 @@
             "savePassword": false,
             "encrypt": "Mandatory",
             "trustServerCertificate": true,
-            "profileName": "ULHT_DB26 (HR + Scott)"
-          },
-          {
-            "server": "db,1433",
-            "database": "BikeStores",
-            "authenticationType": "SqlLogin",
-            "user": "sa",
-            "password": "",
-            "emptyPasswordInput": false,
-            "savePassword": false,
-            "encrypt": "Mandatory",
-            "trustServerCertificate": true,
-            "profileName": "BikeStores"
+            "profileName": "IPL_GIS_DB26 (HR + Scott)"
           }
         ]
       }

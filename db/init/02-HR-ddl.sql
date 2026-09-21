@@ -7,7 +7,7 @@
  *		script can be run independntly of CREATE script
  *		(e.g. recreate schema without droping database)
  *******************************************************/
-USE [ULHT_DB26]
+USE [IPL_GIS_DB26]
 GO
 
 IF NOT EXISTS(SELECT schema_id FROM sys.schemas WHERE name = 'HR')

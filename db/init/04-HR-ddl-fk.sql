@@ -1,7 +1,7 @@
 /*******************************************************
  * Referencial constraints for base SCHEMA HR
  *******************************************************/
-USE [ULHT_DB26]
+USE [IPL_GIS_DB26]
 GO
 --------------------------------------------------------
 --  Ref Constraints for Table COUNTRIES
